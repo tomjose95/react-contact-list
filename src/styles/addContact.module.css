@@ -1,0 +1,97 @@
+.addContact {
+  width: 100%;
+  display: flex;
+}
+.inputfeild_data {
+  padding: 1rem;
+  margin: 1rem;
+  border: 0;
+}
+.main {
+  width: 100%;
+  display: flex;
+}
+.avatar {
+  color: white;
+  background-color: #f39017;
+  border-radius: 100%;
+  padding: 1rem 1.5rem;
+}
+.button {
+  padding: 1rem 1.2rem;
+  margin: 1rem;
+  border-radius: 100%;
+  cursor: pointer;
+  border: 0;
+  background-color: #000000;
+  color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.btnDelete {
+  background-color: #fbe0e3;
+  color: #ddacac;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.data {
+  text-align: center;
+  padding: 1rem;
+}
+.editBtn {
+  background-color: #e1fcf3;
+  color: #9dd3c3;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.contactList {
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  margin: 2rem 0;
+  background-color: white;
+  border-radius: 0.8rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.addContact {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.updateContact {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.inputFeild {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 0.8rem;
+}
+.heading {
+  padding: 1rem 0;
+  text-align: center;
+}
