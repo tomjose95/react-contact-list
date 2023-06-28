@@ -2,30 +2,39 @@
   width: 100%;
   display: flex;
 }
+
+.container {
+  width: 100%;
+}
+
 .inputfeild_data {
   padding: 1rem;
   margin: 1rem;
   border: 0;
 }
+
 .main {
   width: 100%;
   display: flex;
 }
+
 .avatar {
   color: white;
   background-color: #f39017;
   border-radius: 100%;
   padding: 1rem 1.5rem;
 }
+
 .button {
   padding: 1rem 1.2rem;
   margin: 1rem;
-  border-radius: 100%;
+  border-radius: 0.8rem;
   cursor: pointer;
   border: 0;
   background-color: #000000;
   color: white;
 }
+
 .flex {
   display: flex;
   align-items: center;
@@ -34,6 +43,7 @@
   margin: 1rem;
   text-align: center;
 }
+
 .btnContainer {
   display: flex;
   flex-direction: column;
@@ -51,10 +61,12 @@
   padding: 0.5rem;
   margin: 0.5rem;
 }
+
 .data {
   text-align: center;
   padding: 1rem;
 }
+
 .editBtn {
   background-color: #e1fcf3;
   color: #9dd3c3;
@@ -74,16 +86,19 @@
   border-radius: 0.8rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .addContact {
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
+
 .updateContact {
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
+
 .inputFeild {
   width: 100%;
   padding: 1rem;
@@ -91,7 +106,14 @@
   border: none;
   border-radius: 0.8rem;
 }
+
 .heading {
   padding: 1rem 0;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .addContact {
+    flex-direction: column;
+  }
 }

@@ -75,7 +75,7 @@ const ContactList = () => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Contact List</h2>
       <div className={styles.addContact}>
         {" "}
@@ -107,11 +107,7 @@ const ContactList = () => {
           required
         />
         <button onClick={addContact} className={styles.button}>
-          <FontAwesomeIcon
-            icon="fa-solid fa-plus"
-            size="xl"
-            style={{ color: "#ffffff" }}
-          />
+          Add
         </button>
       </div>
 
@@ -157,17 +153,13 @@ const ContactList = () => {
           />
 
           <button onClick={updateContact} className={styles.button}>
-            <FontAwesomeIcon
-              icon="fa-solid fa-arrows-rotate"
-              size="xl"
-              style={{ color: "#ffffff" }}
-            />
+            Update
           </button>
         </div>
       )}
 
       <table className={styles.contactList}>
-        <thead>
+        <thead className={styles.thead}>
           <tr>
             <th className={styles.heading}>Name</th>
             <th className={styles.heading}>Email</th>
